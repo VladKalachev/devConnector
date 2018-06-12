@@ -1,6 +1,9 @@
 import axios from 'axios';
 import { SET_CURRENT_USER, GET_ERRORS } from './types'
+import jwt_decode from 'jwt-decode';
+
 import setAuthToken from '../utils/setAuthToken';
+
 
 // export const registerUser = userDate => dispatch =>{
 //     return {
